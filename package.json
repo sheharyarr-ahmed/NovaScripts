@@ -15,7 +15,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "parcel index.html",
-    "build": "build index.html"
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
