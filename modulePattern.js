@@ -1,4 +1,5 @@
-//iifi was created first
+//iife was created first
+//concept of closures as the inner functins inside the iife remembers the previous iife functions as they (inner function) also reside in them that is why they have them in their memory.
 const shoppingCart2 = (function () {
   //things which we may want to keep private and expose to the public
   const cart = [];
@@ -29,3 +30,4 @@ const shoppingCart2 = (function () {
 shoppingCart2.addToCart("iPhone", 2);
 console.log(shoppingCart2.cart);
 console.log(shoppingCart2.shippingCost);
+console.log(shoppingCart2);

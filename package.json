@@ -1,0 +1,24 @@
+{
+  "name": "novascripts",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/sheharyarr-ahmed/NovaScripts#readme",
+  "bugs": {
+    "url": "https://github.com/sheharyarr-ahmed/NovaScripts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheharyarr-ahmed/NovaScripts.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "clean.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "lodash-es": "^4.17.21"
+  }
+}
