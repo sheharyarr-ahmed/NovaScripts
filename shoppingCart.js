@@ -1,10 +1,22 @@
 //exporting module
+// console.log("EXPORTING MODULE.");
+// console.log("start fetcing in shopping cart");
+// const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
+// const data = await res.json();
+// console.log(data);
+// console.log("fnished fetching in the shopping cart");
+// the above code was removed because while npx parcel index.html was causing eh problems.
+
 console.log("EXPORTING MODULE.");
-console.log("start fetcing in shopping cart");
-const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
-const data = await res.json();
-console.log(data);
-console.log("fnished fetching in the shopping cart");
+
+async function loadUsers() {
+  console.log("start fetching in shopping cart");
+  const res = await fetch(`https://jsonplaceholder.typicode.com/users`);
+  const data = await res.json();
+  console.log(data);
+  console.log("finished fetching in the shopping cart");
+}
+loadUsers();
 
 export const abc = "hello"; //write export to import inside the importing modules.
 
